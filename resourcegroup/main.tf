@@ -1,5 +1,5 @@
 module "rg" {
-  source                     = "app.terraform.io/Hashicorp-neh-Demo/rg/azure"
+  source                     = "app.terraform.io/acme-dcl/rg/azure"
   version                    = "1.0"
   tf_az_name                 = "${var.az_name}"
   tf_az_env                  = "${var.az_env}"
